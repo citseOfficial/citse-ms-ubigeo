@@ -4,6 +4,6 @@ ENV TZ America/Lima
 RUN ln -snf /usr/share/zoneinfo/${TZ} /etc/localtime
 RUN echo "${TZ}" > /etc/timezone
 VOLUME /tmp
-EXPOSE 9001
+EXPOSE 9002
 ADD ./target/citse-ms-ubigeo-0.0.1-SNAPSHOT.jar ubigeo.jar
 ENTRYPOINT ["java", "-jar", "/ubigeo.jar"]
