@@ -8,18 +8,6 @@ spring:
       username: root
       password: 123
       
-server:
-  port: 9001
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      default-zone: http://20.197.181.20:8761
-    instance:
-      hostname: 20.197.181.20
-      prefer-ip-address: true
-      
   jpa:
     hibernate:
       ddl-auto: none
