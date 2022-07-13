@@ -5,8 +5,6 @@ spring:
     config:
       enabled: true
       uri: http://20.197.181.20:8081
-      username: root
-      password: 123
       
   jpa:
     hibernate:
